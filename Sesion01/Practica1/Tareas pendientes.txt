@@ -1,0 +1,2 @@
+-- Quitar label1 y darle color 
+-- Averiguar porque no puedo aparece el resultado de la raiz cuadrada.
