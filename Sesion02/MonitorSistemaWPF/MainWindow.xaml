@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MonitorSistemaWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="693.965" Width="781.897">
-    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,2,3">
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="0,0,0,3" Width="772">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="1*"/>
@@ -33,11 +33,9 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-          
-            
 
         </Grid.RowDefinitions>
+
         <Label Content="Monitor de actividad" Grid.Row="1"></Label>
         <Label Content="Ordenador" Grid.Row="2"></Label>
         <Label Content="Fabricante" Grid.Row="3"></Label>
@@ -61,16 +59,18 @@
         <Label x:Name="labelDW" Content="DW" Grid.Row="14" Grid.Column="2"></Label>
         <Label Content="Lectura/Escritura" Grid.Row="15"></Label>
         <Label x:Name="labelDRW" Content="DRW" Grid.Row="15" Grid.Column="2"></Label>
-        <Label Content="Red" Grid.Row="17"></Label>
-        <Label Content="Paquedes recibidos" Grid.Row="18"></Label>
-        <Label x:Name="labelNR" Content="NR" Grid.Row="18" Grid.Column="2"></Label>
-        <Label Content="Paquetes enviados" Grid.Row="19"></Label>
-        <Label x:Name="labelNPS" Content="NPS" Grid.Row="19" Grid.Column="2"></Label>
-        <Label Content="Red de paquetes recibidos/enviados" Grid.Row="20"></Label>
-        <Label x:Name="labelNPRS" Content="NPRS" Grid.Row="20" Grid.Column="2"></Label>
-        <Slider Maximum="255" TickPlacement="BottomRight" Grid.Row="21" Grid.Column="1" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorR" ValueChanged="ColorSlider_ValueChanged" />
-        <Button x:Name="btnActualizar" Content="Iniciar" Grid.Row="21" Grid.Column="2"/>
-
+        <Label Content="Red" Grid.Row="16"></Label>
+        <Label Content="Paquedes recibidos" Grid.Row="17"></Label>
+        <Label x:Name="labelNR" Content="NR" Grid.Row="17" Grid.Column="2"></Label>
+        <Label Content="Paquetes enviados" Grid.Row="18"></Label>
+        <Label x:Name="labelNPS" Content="NPS" Grid.Row="18" Grid.Column="2"></Label>
+        <Label Content="Red de paquetes recibidos/enviados" Grid.Row="19"></Label>
+        <Label x:Name="labelNPRS" Content="NPRS" Grid.Row="19" Grid.Column="2"></Label>
+        <Button x:Name="btnActualizar" Content="Iniciar" Grid.Row="20" Margin="168,48,219,-73" RenderTransformOrigin="0.43,0.41" Click="btnActualizar_Click"/>
+        <Slider x:Name="actualizarFrecuencia" Grid.Row="20" Width="100" Value="50" Orientation="Horizontal" HorizontalAlignment="Left" 
+                IsSnapToTickEnabled="True" Maximum="3" TickPlacement="BottomRight" 
+                AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="2" 
+                Ticks="0, 1, 2, 3" Margin="60,48,0,-48" RenderTransformOrigin="0.45,0.24" Grid.Column="1" ValueChanged="actualizarFrecuencia_ValueChanged_1"/>
 
     </Grid>
 </Window>
