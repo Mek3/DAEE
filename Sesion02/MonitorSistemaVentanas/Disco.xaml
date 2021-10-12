@@ -1,0 +1,36 @@
+﻿<Page x:Class="MonitorSistemaVentanas.Disco"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MonitorSistemaVentanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Disco">
+
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="0,0,0,308" Width="752" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" OpacityMask="#FFA04DC7" Cursor="SizeAll">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        <Label Content="Disco" Grid.Row="1"></Label>
+        <Label Content="Valor discos lógicos" Grid.Row="2" Background="Transparent"/>
+        <Label Content="Lectura" Grid.Row="3"></Label>
+        <Label x:Name="labelDR" Content="DR" Grid.Row="3" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" OpacityMask="#FFA04DC7" Cursor="SizeAll"/>
+        <Label Content="Escritura" Grid.Row="4"></Label>
+        <Label x:Name="labelDW" Content="DW" Grid.Row="4" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" OpacityMask="#FFA04DC7" Cursor="SizeAll"/>
+        <Label Content="Lectura/Escritura" Grid.Row="5"></Label>
+        <Label x:Name="labelDRW" Content="DRW" Grid.Row="5" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" OpacityMask="#FFA04DC7" Cursor="SizeAll"/>
+
+    </Grid>
+</Page>
