@@ -1,0 +1,14 @@
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\bin\Debug\WpfPersistenciaInterfaz.exe.config
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\bin\Debug\WpfPersistenciaInterfaz.exe
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\bin\Debug\WpfPersistenciaInterfaz.pdb
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.csprojAssemblyReference.cache
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\MainWindow.g.cs
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\App.g.cs
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz_MarkupCompile.cache
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz_MarkupCompile.lref
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\MainWindow.baml
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.g.resources
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.Properties.Resources.resources
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.csproj.GenerateResource.cache
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.exe
+C:\Users\drizo\source\repos\WpfPersistenciaInterfaz\WpfPersistenciaInterfaz\obj\Debug\WpfPersistenciaInterfaz.pdb

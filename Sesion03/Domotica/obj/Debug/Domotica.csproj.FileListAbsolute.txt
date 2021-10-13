@@ -1,0 +1,15 @@
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\bin\Debug\Domotica.exe.config
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\bin\Debug\Domotica.exe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\bin\Debug\Domotica.pdb
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.csproj.AssemblyReference.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\MainWindow.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\App.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica_MarkupCompile.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica_MarkupCompile.lref
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\MainWindow.baml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.g.resources
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.Properties.Resources.resources
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.csproj.GenerateResource.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.csproj.CoreCompileInputs.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.exe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\obj\Debug\Domotica.pdb

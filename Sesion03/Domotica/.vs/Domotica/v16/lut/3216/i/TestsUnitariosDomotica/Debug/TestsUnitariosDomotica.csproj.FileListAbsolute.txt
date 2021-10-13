@@ -1,0 +1,11 @@
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\b\TestsUnitariosDomotica\bin\Debug\TestsUnitariosDomotica.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\i\TestsUnitariosDomotica\Debug\TestsUnitariosDomotica.csproj.AssemblyReference.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\i\TestsUnitariosDomotica\Debug\TestsUnitariosDomotica.csproj.CoreCompileInputs.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\i\TestsUnitariosDomotica\Debug\TestsUnitariosDomotica.csproj.CopyComplete
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion03\Domotica\.vs\Domotica\v16\lut\0\i\TestsUnitariosDomotica\Debug\TestsUnitariosDomotica.dll
