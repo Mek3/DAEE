@@ -1,0 +1,5 @@
+- Boceto
+- Modelo domonio
+- Tests unitarios
+- Recursos I18N
+- Config logging

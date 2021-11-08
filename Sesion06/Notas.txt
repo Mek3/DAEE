@@ -1,0 +1,7 @@
+Librerías para generar PDF
+
+PDFSharp
+
+MigraDoc
+
+Lecturas intenracional que funcionen los acentos en JSON<g

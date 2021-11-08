@@ -1,0 +1,16 @@
+Act1 
+Añadir recursos sistema como MVVM
+
+Act2 
+Binding sobre medidas
+medidas implementar IPropeties changed.
+
+Act 3
+Añadir medida máxima
+
+Act4
+Comand reset 
+
+Act5 
+notificar comando ejecutar. 
+Dudas, no he entendido el funcionamiento de 

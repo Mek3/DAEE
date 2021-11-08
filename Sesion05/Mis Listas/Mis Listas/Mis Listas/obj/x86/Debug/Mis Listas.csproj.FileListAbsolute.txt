@@ -1,0 +1,103 @@
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\App.xbf
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\MainPage.xbf
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.xr.xml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.exe
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.pdb
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\resources.pri
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\AppxManifest.xml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Core\Mis Listas.exe
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.build.appxrecipe
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\System.Runtime.dll
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.csprojAssemblyReference.cache
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\App.g.i.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\App.g.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.g.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\App.xaml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.xaml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\App.xbf
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.xbf
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.csproj.CopyComplete
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.exe
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.pdb
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\priconfig.xml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\resources.resfiles
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\pri.resfiles
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\qualifiers.txt
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Assets\Data\data.json
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\bin\x86\Debug\TareaControl.xbf
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.g.i.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.g.cs
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.xaml
+C:\Users\drizo\source\repos\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Assets\Data\data.json
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\App.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\MainPage.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\TareaControl.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.xr.xml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.exe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.pdb
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\resources.pri
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\AppxManifest.xml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Core\Mis Listas.exe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Mis Listas.build.appxrecipe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\System.Runtime.dll
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.csproj.AssemblyReference.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\App.g.i.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\App.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.g.i.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\App.xaml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.xaml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.xaml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\App.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\MainPage.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\TareaControl.xbf
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.csproj.CoreCompileInputs.cache
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.csproj.CopyComplete
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.exe
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\Mis Listas.pdb
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\priconfig.xml
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\resources.resfiles
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\pri.resfiles
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\qualifiers.txt
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\mekmo\OneDrive\Documentos\MasterWeb\DAEE\Sesion05\Mis Listas\Mis Listas\Mis Listas\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

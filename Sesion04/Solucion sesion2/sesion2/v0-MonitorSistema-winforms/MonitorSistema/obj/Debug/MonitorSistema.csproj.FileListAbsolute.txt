@@ -1,0 +1,10 @@
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.csprojAssemblyReference.cache
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.FormPrincipal.resources
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.Properties.Resources.resources
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.csproj.GenerateResource.cache
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.csproj.CoreCompileInputs.cache
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\bin\Debug\MonitorSistema.exe.config
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\bin\Debug\MonitorSistema.exe
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\bin\Debug\MonitorSistema.pdb
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.exe
+C:\Users\drizo\source\repos\MonitorSistema\MonitorSistema\obj\Debug\MonitorSistema.pdb

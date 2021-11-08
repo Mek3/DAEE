@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Lista de tareas",
+		"visible": "true",
+		"color": "blue",
+		"date": "2019-05-01 0:00:00",
+		"tasks" : [
+			{
+			"text": "Tarea de bienvenida",
+			"date": "2019-05-01 0:00:00",
+			"expires": "2019-12-31 23:59:58",
+			"finished": "false",
+			"visible": "true"
+			}
+		]
+	}
+]
