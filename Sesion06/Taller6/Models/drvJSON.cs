@@ -94,6 +94,7 @@ namespace Taller6.Models
         public bool setDato(int indice, dynamic dato)
         {
             bool res = true;
+            datos[indice] = dato;
             //Todo .. 
             return res;
         }

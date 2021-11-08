@@ -60,7 +60,7 @@ namespace Taller6
                 for (int i = 0; i < datos.getTotalKeys(); i++)
                 {
 
-                    Label label = new Label()
+                    Button boton = new Button
                     {
                         Name = "lblHeader_" + (i + 1).ToString(),
                         Content = datos.getKey(i),
@@ -74,8 +74,10 @@ namespace Taller6
                         Height = 24,
                         HorizontalContentAlignment = HorizontalAlignment.Center
                     };
-
-                    pnlDatos.Children.Add(label);
+                    int id = i;
+                    boton.Click += (sender, EventArgs) => { btnOrdenar_Click(sender, EventArgs, id); };
+                    pnlDatos.Children.Add(boton);
+                    
                 }
 
                 Label labelOps = new Label
@@ -90,53 +92,13 @@ namespace Taller6
                 };
                 pnlDatos.Children.Add(labelOps);
 
-                for (int i = 0; i < datos.getTotal(); i++) 
-                {
-                    for (int j = 0; j < datos.getTotalKeys(); j++) 
-                    {
-                        SolidColorBrush bgcolor;
-                        if (i % 2 == 0)
-                        {
-                            bgcolor = new SolidColorBrush(Colors.White);
-                        }
-                        else
-                        {
-                            bgcolor = new SolidColorBrush(Colors.LightGray);
-                        }
+                insertarDatosEnTabla();
 
-                        Label label = new Label
-                        {
-                            Name = "lblData_" + (i + 1).ToString() + "_" + (j + 1).ToString(),
-                            Width = 100,
-                            Height = 24,
-                            Content = datos.getDato(i)[datos.getKey(j)],
-                            Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0x33)),
-                            Background = bgcolor,
-                            Margin = new Thickness(0 + (j * 100), 24 + (i * 24), 0, 0),
-                            FontFamily = new FontFamily("Arial"),
-                            FontSize = 12.0,
-                            BorderThickness = new Thickness(1, 0, 0, 0)
-                        };
-                        pnlDatos.Children.Add(label);
-                    }
-
-                    Button boton = new Button
-                    {
-                        Content = "Detalle",
-                        Name = "btn_" + (i + 1).ToString(),
-                        Width = 70,
-                        Height = 22,
-                        Margin = new Thickness(2 + (datos.getTotalKeys() * 100), 25 + (i * 24), 100, 0),
-                    };
-                    int id = i;
-                    boton.Click += (sender, EventArgs) => { btnDetalle_Click(sender, EventArgs, id); };
-                    pnlDatos.Children.Add(boton);
-                }
-                
             }
+
         }
 
-       /* private void ordenarColumna() 
+        private void insertarDatosEnTabla() 
         {
             for (int i = 0; i < datos.getTotal(); i++)
             {
@@ -151,7 +113,7 @@ namespace Taller6
                     {
                         bgcolor = new SolidColorBrush(Colors.LightGray);
                     }
-
+                    
                     Label label = new Label
                     {
                         Name = "lblData_" + (i + 1).ToString() + "_" + (j + 1).ToString(),
@@ -180,7 +142,48 @@ namespace Taller6
                 boton.Click += (sender, EventArgs) => { btnDetalle_Click(sender, EventArgs, id); };
                 pnlDatos.Children.Add(boton);
             }
-        }*/
+        }
+
+        private void btnOrdenar_Click(object sender, EventArgs e, int id)
+        {
+            if (id == 0)
+            {
+                for (int i = 1; i < datos.getTotal(); i++)
+                {
+                    for (int j = 0; j < datos.getTotal(); j++)
+                    {
+
+                        if (datos.getDato(i)[datos.getKey(0)] < datos.getDato(j)[datos.getKey(0)])
+                        {
+                            dynamic auxDatos = datos.getDato(i);
+
+                            datos.setDato(i, datos.getDato(j));
+                            datos.setDato(j, auxDatos);
+
+                        }
+                    }
+                }
+                insertarDatosEnTabla();
+            }
+            else if (id == 1) 
+            {
+                for (int i = 1; i < datos.getTotal(); i++)
+                {
+                    for (int j = 0; j < datos.getTotal(); j++)
+                    {
+                        if (datos.getDato(i)[datos.getKey(1)] < datos.getDato(j)[datos.getKey(1)])
+                        {
+                            dynamic auxDatos = datos.getDato(i);
+
+                            datos.setDato(i, datos.getDato(j));
+                            datos.setDato(j, auxDatos);
+                        }
+                    }
+                }
+                insertarDatosEnTabla();
+            }
+        }
+
         private void btnDetalle_Click(object sender, EventArgs e, int id)
         {
             _oldTitulo = titulo;
