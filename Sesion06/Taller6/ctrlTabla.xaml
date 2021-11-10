@@ -9,9 +9,23 @@
     <Grid>
         <Label x:Name="lblTitulo" Content="Título" HorizontalAlignment="Left"
                    Margin="21, 10, 0, 0" VerticalAlignment="Top" FontSize="24"/>
+
+        <Label x:Name="lblId" Content="Id: " HorizontalAlignment="Left"
+                   Margin="21, 70, 0, 0" VerticalAlignment="Top" FontSize="12"/>
+
+        <TextBox Name="textId" Margin="40,70,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Top"  Width="105" Height="20"/>
+
+        <Button x:Name="btnId" Content="Buscar Provincia" HorizontalAlignment="Left"
+                    Margin="150, 70,0,0" VerticalAlignment="Top" FontSize="12" Click="btnId_Click"/>
+
+        <Button x:Name="btnTodo" Content="Mostrar todas las provincias" HorizontalAlignment="Left"
+                    Margin="250, 70,0,0" VerticalAlignment="Top" FontSize="12" Click="btnTodo_Click"/>
+
+
         <ScrollViewer ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                       ScrollViewer.VerticalScrollBarVisibility="Auto"
-                      Margin="10, 52, 9.6,53">
+                      Margin="10, 100, 9.6,53">
             <Canvas x:Name="pnlDatos" HorizontalAlignment="Left" Width="750"
                     VerticalAlignment="Top"/>
         </ScrollViewer>

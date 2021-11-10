@@ -48,8 +48,7 @@ namespace Taller6
             titulo = "Titulo";
             datos = new drvJSON();
         }
-
-        private void loadData()
+        private void insertarDatosCabecera()
         {
             if (_origen != "")
             {
@@ -77,7 +76,7 @@ namespace Taller6
                     int id = i;
                     boton.Click += (sender, EventArgs) => { btnOrdenar_Click(sender, EventArgs, id); };
                     pnlDatos.Children.Add(boton);
-                    
+
                 }
 
                 Label labelOps = new Label
@@ -87,15 +86,16 @@ namespace Taller6
                     Width = 100,
                     Height = 24,
                     Margin = new Thickness(0 + (datos.getTotalKeys() * 95), 0, 0, 0),
-                    Background = new SolidColorBrush(Color.FromRgb(0,0,0x33)),
+                    Background = new SolidColorBrush(Color.FromRgb(0, 0, 0x33)),
                     Foreground = new SolidColorBrush(Colors.White),
                 };
                 pnlDatos.Children.Add(labelOps);
-
-                insertarDatosEnTabla();
-
             }
-
+        }
+        private void loadData()
+        {
+            insertarDatosCabecera();
+            insertarDatosEnTabla();
         }
 
         private void insertarDatosEnTabla() 
@@ -191,6 +191,12 @@ namespace Taller6
             btnVolver.Visibility = Visibility.Visible;
             ScrollViewer aux = (ScrollViewer)pnlDatos.Parent;
             aux.Visibility = Visibility.Hidden;
+            btnId.Visibility = Visibility.Hidden;
+            lblId.Visibility = Visibility.Hidden;
+            textId.Visibility = Visibility.Hidden;
+            btnTodo.Visibility = Visibility.Hidden;
+
+            Console.WriteLine(id);
             // Código para mostrar el detalle del dato seleccionado.
 
             pnlDetalle.Children.Clear();
@@ -215,7 +221,7 @@ namespace Taller6
 
                 Label auxDato = new Label
                 {
-                    Content = datos.getDato(i)[datos.getKey(i)],
+                    Content = datos.getDato(id)[datos.getKey(i)],
                     FontFamily = new FontFamily("Arial"),
                     FontSize = 12,
                     FontWeight = FontWeights.Regular,
@@ -240,8 +246,84 @@ namespace Taller6
             boxDetalle.Visibility = Visibility.Hidden;
             boxDetalle.Margin = new
             Thickness(792, 52, -772.6, 52.6);
+            btnId.Visibility = Visibility.Visible;
+            lblId.Visibility = Visibility.Visible;
+            textId.Visibility = Visibility.Visible;
+            btnTodo.Visibility = Visibility.Visible;
         }
 
+        private void mostrarProvincia(int ide)
+        {
+            
+            int iAux = 0;
+            bool idEncontrado = false;
+
+           for (int j = 0; j < datos.getTotal() && !idEncontrado; j++)
+            {
+                if (datos.getDato(j)[datos.getKey(0)] == ide)
+                {
+                    iAux = j;
+                    idEncontrado = true;
+                }
+            }
+            if (idEncontrado)
+            {
+                pnlDatos.Children.Clear();
+                insertarDatosCabecera();
+
+                for (int j = 0; j < datos.getTotalKeys(); j++)
+                {
+                    SolidColorBrush bgcolor = new SolidColorBrush(Colors.LightGray);
+                    
+                    Label label = new Label
+                    {
+                        Name = "lblData_" + (iAux + 1).ToString() + "_" + (j + 1).ToString(),
+                        Width = 100,
+                        Height = 24,
+                        Content = datos.getDato(iAux)[datos.getKey(j)],
+                        Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0x33)),
+                        Background = bgcolor,
+                        Margin = new Thickness(0 + (j * 100), 24 + (24), 0, 0),
+                        FontFamily = new FontFamily("Arial"),
+                        FontSize = 12.0,
+                        BorderThickness = new Thickness(1, 0, 0, 0)
+                    };
+                    pnlDatos.Children.Add(label);
+                }
+
+                Button boton = new Button
+                {
+                    Content = "Detalle",
+                    Name = "btn_" + (iAux + 1).ToString(),
+                    Width = 70,
+                    Height = 22,
+                    Margin = new Thickness(2 + (datos.getTotalKeys() * 100), 25 + (24), 100, 0),
+                };
+                int id = iAux;
+                boton.Click += (sender, EventArgs) => { btnDetalle_Click(sender, EventArgs, id); };
+                pnlDatos.Children.Add(boton);
+            }
+            else {
+                MessageBox.Show("Provincia con " + ide + " No encontrada");
+            }
+        }
+
+        private void btnId_Click(object sender, RoutedEventArgs e)
+        {
+            int id = Convert.ToInt32(textId.Text);
+            Console.WriteLine(id);
+            if (id > 1)
+            {
+                mostrarProvincia(id);
+            }
+           
+        }
+
+        private void btnTodo_Click(object sender, RoutedEventArgs e)
+        {
+            pnlDatos.Children.Clear();
+            loadData();
+        }
     }
     
 }
