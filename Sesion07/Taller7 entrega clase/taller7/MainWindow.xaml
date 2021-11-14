@@ -13,6 +13,15 @@
         <Label x:Name="lblTitulo" Content="Gestión del catálogo de productos" 
                HorizontalAlignment="Left" Margin="10,10,0,0"
                VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnNuevo" HorizontalAlignment="Left"
+            Margin="693,10,0,0" VerticalAlignment="Top" Width="91"
+            Height="40" Background="LightBlue" Foreground="#000033" Click="btnNuevo_Click">
+            <StackPanel Width="77" Height="30" Orientation="Horizontal">
+                <Image Source="Resources/add.jpg" Height="20"></Image>
+                <TextBlock VerticalAlignment="Center" FontFamily="Verdana"
+            FontWeight="Bold" FontSize="14">Añadir</TextBlock>
+            </StackPanel>
+        </Button>
         <DataGrid x:Name="gridListado" AutoGenerateColumns="False" EnableRowVirtualization="True" 
                   ItemsSource="{Binding}" Margin="5,55,5,5"
                   RowDetailsVisibilityMode="VisibleWhenSelected" FontSize="14" 
@@ -22,15 +31,194 @@
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="idColumn" Binding="{Binding Id}"
                     Header="Código" Width="Auto"/>
-                                    <DataGridTextColumn x:Name="nombreColumn" Binding="{Binding Nombre}"
+                <DataGridTextColumn x:Name="nombreColumn" Binding="{Binding Nombre}"
                     Header="Nombre" Width="390"/>
-                                    <!--DataGridTextColumn x:Name="descripcionColumn" Binding="{Binding
+                <!--DataGridTextColumn x:Name="descripcionColumn" Binding="{Binding
                     descripcion}" Header="Descripción" Width="*"/ -->
-                                    <DataGridTextColumn x:Name="categoriaColumn" Binding="{Binding
+                <DataGridTextColumn x:Name="categoriaColumn" Binding="{Binding
                     Categoria.Nombre}" Header="Categoría" Width="170"/>
                 <DataGridTextColumn x:Name="precioColumn" Binding="{Binding Precio}"
                                 Header="Precio" Width="Auto"/>
-                </DataGrid.Columns>
+                <DataGridTemplateColumn Header="" Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button x:Name="btnDelail" Background="LightGreen"
+                                        Foreground="White" FontFamily="Verdana"
+                                            FontWeight="Bold" Margin="0,0,5,0" Click="btnDetail_Click">
+                                    <StackPanel>
+                                        <Image Source="Resources/Detalles.png" Height="20" Width="20"></Image>
+                                    </StackPanel>
+                                </Button>
+
+                                <Button x:Name="btnEdit" Background="LightYellow"
+                                        Foreground="#000033" FontFamily="Verdana"
+                                            FontWeight="Bold" Margin="0,0,5,0" Click="btnEdit_Click">
+                                    <StackPanel>
+                                        <Image Source="Resources/editar.png" Height="20" Width="20"></Image>
+                                    </StackPanel>
+                                </Button>
+
+                                <Button x:Name="btnDelete" Background="Red"
+                                        Foreground="White" FontFamily="Verdana"
+                                            FontWeight="Bold" Click="btnDelete_Click">
+                                    <StackPanel>
+                                        <Image Source="Resources/borrar.png" Height="20" Width="20"></Image>
+                                    </StackPanel>
+                                </Button>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
         </DataGrid>
+
+        <Grid x:Name="gridCajaDetalle" Margin="825,55,-810,5"
+            Background="White">
+            <Label x:Name="lblTituloDetalle" Content="Detalle del producto"
+                HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"
+                FontSize="20" FontWeight="Bold"/>
+
+            <Button Content="Volver" HorizontalAlignment="Left"
+                Margin="695,320,0,0" VerticalAlignment="Top"
+                Background="Red" Foreground="#000033" Width="74" Height="30"
+                FontFamily="Verdana" FontSize="12" FontWeight="Bold" Click="btnVolverDetalle_Click"
+                />
+            <Grid x:Name="gridDetalle" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="500" Height="248">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Content="Categoría:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="categoríaTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding Categoría, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Descripción:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="1" VerticalAlignment="Center"/>
+                <TextBox x:Name="descripciónTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="1" Text="{Binding Descripción, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Id:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="2" VerticalAlignment="Center"/>
+                <TextBox x:Name="idTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="2" Text="{Binding Id, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Nombre:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="3" VerticalAlignment="Center"/>
+                <TextBox x:Name="nombreTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="3" Text="{Binding Nombre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Precio:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="4" VerticalAlignment="Center"/>
+                <TextBox x:Name="precioTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="4" Text="{Binding Precio, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="gridCajaNuevo" Margin="5,-393,3.6,453"
+            Background="White">
+            <Label x:Name="lblTituloNuevo" Content="Añadir un nuevo
+            producto" HorizontalAlignment="Left" Margin="10,10,0,0"
+            VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Button x:Name="btnVolverNuevo" Content="Volver"
+            HorizontalAlignment="Left" Margin="695,320,0,0"
+            VerticalAlignment="Top" Background="Red" Foreground="#000033"
+            Width="74" Height="30" FontFamily="Verdana" FontSize="12"
+            FontWeight="Bold" Click="btnVolverNuevo_Click"/>
+
+            <Button x:Name="btnAddNuevo" Content="Añadir"
+                        HorizontalAlignment="Left" Margin="600,320,0,0"
+                        VerticalAlignment="Top" Background="LightBlue"
+                        Foreground="#000033" Width="75" Height="30"
+                        FontFamily="Verdana" FontSize="12" FontWeight="Bold"
+                        Click="btnAddNuevo_Click"/>
+
+            <Grid x:Name="grid1" HorizontalAlignment="Left" Margin="131,98,0,0" VerticalAlignment="Top" Height="204" Width="394">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Content="Id:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="idTextBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" VerticalAlignment="Center" Width="120"/>
+
+                <Label Content="Nombre:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="1" VerticalAlignment="Center"/>
+                <TextBox x:Name="nombreTextBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="1" VerticalAlignment="Center" Width="120"/>
+
+                <Label Content="Descripción:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="2" VerticalAlignment="Center"/>
+                <TextBox x:Name="descripciónTextBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="2"  VerticalAlignment="Center" Width="120"/>
+
+                <Label Content="Categoría:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="3" VerticalAlignment="Center"/>
+                <ComboBox x:Name="slctCategorias" Grid.Column="2"
+                    HorizontalAlignment="Left" Height="28"
+                    Background="White" Margin="2.8,6.4,-253.2,7.2"
+                    Grid.Row="3" VerticalAlignment="Center" Width="300"
+                    FontSize="16">
+                </ComboBox>
+
+                <Label Content="Precio:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="4" VerticalAlignment="Center"/>
+                <TextBox x:Name="precioTextBox1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="4" VerticalAlignment="Center" Width="120"/>
+
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="gridCajaEditar" Margin="5,432,3.6,-372"
+                Background="White">
+            <Label x:Name="lblTituloEditar" Content="Modificación de un
+                    producto" HorizontalAlignment="Left" Margin="10,10,0,0"
+                    VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <!-- aquí irá el formulario -->
+            <Button x:Name="btnEditProd" Content="Modificar"
+                    HorizontalAlignment="Left" Margin="600,320,0,0"
+                    VerticalAlignment="Top" Background="LightBlue"
+                    Foreground="#000033" Width="75" Height="30" FontFamily="Verdana"
+                    FontSize="12" FontWeight="Bold" Click="btnEditProd_Click"/>
+            <Button x:Name="btnVolverEdit" Content="Volver"
+                    HorizontalAlignment="Left" Margin="695,320,0,0"
+                    VerticalAlignment="Top" Background="Red" Foreground="#000033"
+                    Width="74" Height="30" FontFamily="Verdana" FontSize="12"
+                    FontWeight="Bold" Click="btnVolverEdit_Click"/>
+            <Grid x:Name="grid2" HorizontalAlignment="Left" Margin="109,100,0,0" VerticalAlignment="Top" Height="197" Width="473">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Content="Id:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center" FontWeight="Bold"/>
+                <TextBox x:Name="idTextBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding Id, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+
+                <Label Content="Nombre:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="1" VerticalAlignment="Center" FontWeight="Bold"/>
+                <TextBox x:Name="nombreTextBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="1" Text="{Binding Nombre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+
+                <Label Content="Descripción:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="2" VerticalAlignment="Center" FontWeight="Bold"/>
+                <TextBox x:Name="descripciónTextBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="2" Text="{Binding Descripción, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                
+                <Label Content="Categoría:" Grid.Column="0" HorizontalAlignment="Left"
+                       Margin="3" Grid.Row="3" VerticalAlignment="Center" FontSize="14"
+                       FontWeight="Bold"/>
+                        <ComboBox x:Name="slctCategoriasEdit" Grid.Column="1"
+                        HorizontalAlignment="Left" Height="28" Background="White"
+                        SelectedValue="{Binding Categoría, Mode=TwoWay, NotifyOnValidationError=true,
+                        ValidatesOnExceptions=true}" Margin="2.8,6.4,-253.2,7.2" Grid.Row="3"
+                        VerticalAlignment="Center" Width="300" FontSize="16"/>
+                
+                <Label Content="Precio:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="4" VerticalAlignment="Center"/>
+                <TextBox x:Name="precioTextBox2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="4" Text="{Binding Precio, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="euros" Grid.Column="2" HorizontalAlignment="Left"
+                    Margin="125,4,-54.6,9" Grid.Row="4" VerticalAlignment="Center" FontSize="14"
+                    FontWeight="Bold"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
