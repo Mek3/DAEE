@@ -114,8 +114,8 @@
 
         <Grid x:Name="gridCajaNuevo" Margin="5,-393,3.6,453"
             Background="White">
-            <Label x:Name="lblTituloNuevo" Content="Añadir un nuevo
-            producto" HorizontalAlignment="Left" Margin="10,10,0,0"
+            <Label x:Name="lblTituloNuevo" Content="Añadir un nuevo producto"
+                   HorizontalAlignment="Left" Margin="10,10,0,0"
             VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
             <Button x:Name="btnVolverNuevo" Content="Volver"
             HorizontalAlignment="Left" Margin="695,320,0,0"
@@ -168,8 +168,8 @@
 
         <Grid x:Name="gridCajaEditar" Margin="5,432,3.6,-372"
                 Background="White">
-            <Label x:Name="lblTituloEditar" Content="Modificación de un
-                    producto" HorizontalAlignment="Left" Margin="10,10,0,0"
+            <Label x:Name="lblTituloEditar" Content="Modificación de un producto" 
+                   HorizontalAlignment="Left" Margin="10,10,0,0"
                     VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
             <!-- aquí irá el formulario -->
             <Button x:Name="btnEditProd" Content="Modificar"

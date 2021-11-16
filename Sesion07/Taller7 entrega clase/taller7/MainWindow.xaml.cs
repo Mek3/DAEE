@@ -86,33 +86,56 @@ namespace taller7
 
             try
             {
-                //bool datosCorrectos = false;
 
                 /*do
-                {
-                    /*int i = 0;
+                {*/
+                    int i = 0;
+                    double p = 0;
                     string id = idTextBox1.Text;
-                    string precio = 
-                    if (int.TryParse(id, out i) && ()*/
-                        nuevo.Id = Convert.ToInt32(idTextBox1.Text);
-                   /* else
+                    string precio = precioTextBox1.Text;
+                    string nombre = nombreTextBox1.Text;
+                    string descripcion = descripciónTextBox1.Text;
+
+                    if (!precio.Equals("") && id != "" &&
+                        descripcion != "" && precio != "")
                     {
-                        //
-                    }*/
+                        if (int.TryParse(id, out i) && double.TryParse(precio, out p))
+                        {
+                            
+                            nuevo.Id = Convert.ToInt32(id);
+                            nuevo.Precio = Convert.ToDouble(precio);
+                            nuevo.Categoría = Convert.ToInt32(slctCategorias.SelectedValue.ToString());
+                            nuevo.Nombre = nombre;
+                            nuevo.Descripción = descripcion;
 
-                    nuevo.Nombre = nombreTextBox1.Text;
-                    nuevo.Descripción = descripciónTextBox1.Text;
-                    nuevo.Categoría = Convert.ToInt32(slctCategorias.SelectedValue.ToString());
-                    nuevo.Precio = Convert.ToDouble(precioTextBox1.Text);
-              //  } while (!datosCorrectos);
+                            db.Productos.Add(nuevo);
+                            db.SaveChanges();
 
-                db.Productos.Add(nuevo);
-                db.SaveChanges();
+                            MessageBox.Show("Producto '" + nuevo.Nombre + "' añadido correctamente.",
+                            "Atención!", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                mostrarListado();
+                            mostrarListado();
+                    }
+                        else
+                        {
+                            MessageBox.Show("Revisa el campo precio e id, deben ser número" +
+                                            " Precio(decimal) y Id(entero).",
+                                            "Atención!", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
 
-                MessageBox.Show("Producto '" + nuevo.Nombre + "' añadido correctamente.",
-                    "Atención!", MessageBoxButton.OK, MessageBoxImage.Information);
+                       
+                    }
+                    else {
+                        MessageBox.Show("Ninguno de los campos puede quedar vacío.", "Atención!",
+                                        MessageBoxButton.OK, MessageBoxImage.Error);
+
+                    }
+
+
+
+                
+
+                
 
             }
             catch (Exception ex) 
